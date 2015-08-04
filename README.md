@@ -36,7 +36,10 @@ node app.js
 Third command prompt: 
 * move to Pipelinr Frontend: cd yourFolder/Pipelinr/Frontend
 ```
+npm config set strict-ssl false
 npm install
+npm install -g bower
+npm install -g grunt-cli
 bower install
 grunt serve
 ```
